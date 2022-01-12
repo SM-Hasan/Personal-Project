@@ -1,0 +1,716 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* Header Part Style Start*/
+header {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  z-index: 1;
+}
+.logo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 10%;
+  padding: 10px 12px;
+}
+.nav {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 100px;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+.nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 14px;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-size: 0.75rem;
+  color: #3b3f41;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav ul li a:hover {
+  transition: all ease-in 0.2s;
+  color: #8492ff;
+}
+.checkbtn {
+  display: none;
+  font-size: 30px;
+}
+#check {
+  display: none;
+}
+/* Header Part Style End */
+/* 1sr Section Style Start */
+section.sectionOne {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9ff;
+  padding: 100px;
+}
+
+.sectionOne .half1 {
+  width: 50%;
+  padding: 12px;
+}
+.sectionOne .half2 {
+  width: 50%;
+}
+.sectionOne .half2 img {
+  max-width: 100%;
+  height: auto;
+}
+.half1 h4 {
+  font-weight: normal;
+  color: #222c29;
+  letter-spacing: 1.5px;
+  font-size: 0.9rem;
+}
+.half1 h1 {
+  font-size: 3rem;
+  color: #222222;
+  letter-spacing: 0.5px;
+}
+.half1 p {
+  color: #777;
+  line-height: 1.5em;
+}
+.half1 input {
+  width: 170px;
+  height: 45px;
+  background: linear-gradient(120deg, #8293ff, #64b9fc);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.half1 input:hover {
+  transition: all ease 0.3;
+  box-shadow: 5px 10px 30px rgba(54, 54, 122, 0.3);
+  outline: none;
+}
+/* 1st Secttion Style End */
+/* 2nd Section Style Start */
+section.sectionTwo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 145px;
+  margin-bottom: 200px;
+}
+section.sectionTwo div {
+  width: 40%;
+  margin: 0 auto;
+}
+.sectionTwo .img2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.sectionTwo img {
+  width: 100%;
+  height: auto;
+}
+.text2 h4 {
+  font-weight: normal;
+  color: #222c29;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+.text2 h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 0.5px;
+}
+.text2 p {
+  font-size: 0.9rem;
+  line-height: 1.5em;
+  letter-spacing: 0.5px;
+  color: #777;
+  width: 85%;
+  font-weight: 300;
+}
+.text2 input {
+  width: 180px;
+  height: 40px;
+  background: linear-gradient(120deg, #8293ff, #64b9fc);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.text2 input:hover {
+  transition: all ease 0.3;
+  box-shadow: 5px 10px 50px rgba(54, 54, 122, 0.3);
+  outline: none;
+}
+/* 2nd Section Style End */
+/* 3rd Section Style Start */
+section.sectonTrhee {
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section3Header {
+  width: 55%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  margin: 0 auto;
+  margin-top: -85px;
+  margin-bottom: 45px;
+}
+.section3Header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222;
+  letter-spacing: 0.5px;
+  padding: 15px;
+}
+.section3Header p {
+  color: #777;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.4em;
+}
+.serviceItem {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  flex-wrap: wrap;
+}
+.serviceBox {
+  width: 25%;
+  margin: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.serviceBox span {
+  font-size: 2rem;
+  background: #fff;
+  font-weight: normal;
+}
+.serviceBox h3 {
+  color: #333;
+  margin-top: 35px;
+}
+.serviceBox p {
+  color: #777;
+  font-weight: 300;
+  line-height: 1.4em;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+.serviceBox:hover span {
+  transition: all ease-in 0.3s;
+  color: #77a1fe;
+}
+.serviceBox:hover h3 {
+  transition: all ease-in 0.3s;
+  color: #77a1fe;
+}
+/* 3rd Section Style End */
+/* 4th Section Style Start */
+section.sectionFour {
+  width: 100%;
+  height: 80vh;
+  background: #799ffe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+.sectionFour .skillInfo {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  padding: 20px 30px;
+}
+.skillInfo h1 {
+  font-size: 2rem;
+  padding: 5px;
+}
+/* 4th Section Style End */
+/* Protfolio Section Style Start */
+.protfolioSection {
+  width: 100%;
+  height: auto;
+}
+.protfolioHeader {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 85px 30px;
+}
+.protfolioHeader h1 {
+  font-size: 2.3rem;
+  line-height: 65px;
+  font-weight: 700;
+  color: #333333;
+  letter-spacing: 0.5px;
+}
+.protfolioHeader p {
+  color: #777;
+  letter-spacing: 0.7px;
+}
+.protfoliobox {
+  width: 85%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.protfoliobox .protfolioItem {
+  width: 340px;
+  height: 339px;
+  padding: 40px;
+  text-align: center;
+  margin: 40px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.protfolioItem h4 {
+  color: #333333;
+  margin-top: 15px;
+  letter-spacing: 0.5px;
+  line-height: 1.4em;
+}
+.protfolioItem p {
+  color: #7777;
+  letter-spacing: 0.5px;
+}
+
+.protfoliobox figure {
+  width: 340px;
+  height: 339px;
+  background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+  margin: 0;
+  padding: 0;
+  border-radius: 3%;
+}
+.protfoliobox figure:hover img {
+  opacity: 0.5;
+  transition: all ease-in-out 0.3s;
+}
+/* Protfolio Section Style End */
+/* Pricing Table Section  Style Start */
+.pricingTable {
+  width: 100%;
+  height: auto;
+}
+.pricingTable .pricingHeader {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 95px 45px;
+}
+.pricingHeader h1 {
+  font-size: 2.3rem;
+  color: #333333;
+  line-height: 1.67em;
+  letter-spacing: 0.5px;
+}
+.pricingHeader p {
+  font-size: 0.9rem;
+  color: #777777;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+.pricingCardBox {
+  width: 85%;
+  height: auto;
+  background: #f9f9ff;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.pricingCardBox .pricingCardItem {
+  width: 285px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.pricingCardItem .plan1 {
+  width: 250px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.plan1 h1 {
+  width: 130px;
+  height: 130px;
+  border: 25px solid #e7eaed;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 15px;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.plan1 h4 {
+  color: #333333;
+  line-height: 2.57em;
+  letter-spacing: 0.5px;
+}
+.plan1 p {
+  color: #777777;
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+.pricingCardItem .packeg-list {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.packeg-list ul {
+  width: 100%;
+  height: auto;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 20px;
+  border-top: 1px solid #00000030;
+}
+.packeg-list ul li {
+  width: 100%;
+  padding: 7px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777777;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.67em;
+  border-bottom: 1px solid #00000030;
+}
+.pricingCardItem .button_part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  margin-bottom: 15px;
+}
+.button_part h1 {
+  font-size: 2rem;
+  color: #333333;
+  letter-spacing: 0.5px;
+}
+.button_part .byeBtn input {
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: #000f;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+}
+.pricingCardItem:hover {
+  background: linear-gradient(40deg, #8292ff 40%, #64bcfc 100%);
+  transform: scale(1.05);
+  transition: all ease-in 0.25s;
+  box-shadow: 0px 8px 12px 0 rgba(0, 0, 0, 0.3);
+}
+.pricingCardItem:hover .plan1 h1,
+.plan1 h4,
+.plan1 p {
+  color: #fff;
+}
+.pricingCardItem:hover .packeg-list ul {
+  border-top: 1px solid #fff;
+}
+.pricingCardItem:hover .packeg-list ul li {
+  color: #f9f9ff;
+  border-bottom: 1px solid #fff;
+}
+.pricingcarditem:hover .button_part h1 {
+  display: none;
+}
+
+/* Pricing Table Section Style End */
+/* Footer Part Style Start */
+footer {
+  width: 100%;
+  height: auto;
+  background: #04091e;
+}
+footer .foot {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 55px 15px;
+}
+.foot .abouUs {
+  width: 42%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.foot .abouUs h3 {
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+.foot .textP p {
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+  color: rgb(153, 148, 148);
+  letter-spacing: 0.7px;
+  font-weight: 300;
+}
+.foot .newPart {
+  width: 42%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -45px;
+}
+.foot .newPart h3 {
+  letter-spacing: 0.5px;
+  line-height: 4em;
+  color: #fff;
+}
+.foot .newPart p {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  color: rgb(153, 148, 148);
+  letter-spacing: 0.7px;
+  font-weight: 300;
+}
+.foot .socialIcon {
+  width: 15%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -45px;
+}
+.foot .socialIcon h3 {
+  letter-spacing: 0.5px;
+  line-height: 4em;
+  color: #fff;
+}
+.foot .socialIcon p {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  color: rgb(153, 148, 148);
+  letter-spacing: 0.7px;
+  font-weight: 300;
+}
+.socialIcon .iconBox {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 10px;
+}
+.iconBox i {
+  color: #fff;
+  font-size: 13px;
+}
+.iconBox i:hover {
+  color: #8490ff;
+}
+.newPart .inputBox {
+  width: 95%;
+  height: auto;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputBox input {
+  width: 90%;
+  height: auto;
+  border: none;
+  outline: none;
+  padding: 0px 15px;
+}
+.inputBox a.btn {
+  text-decoration: none;
+  width: 15%;
+  height: 40px;
+  background: #8490ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.inputBox a i {
+  color: #ffff;
+}
+/* Footer Part Style End */
+
+/* Header Part Responsive Start */
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 70px;
+  }
+  header .logo {
+    left: 5%;
+  }
+  header .nav ul {
+    position: fixed;
+    width: 100%;
+    height: 90vh;
+    background: #f9f9ff;
+    left: -200%;
+    top: 54px;
+    transition: all 1s;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+  }
+  header .nav ul li {
+    line-height: 30px;
+    clear: both;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  header .nav ul li a {
+    text-align: center;
+  }
+  .checkbtn {
+    display: block;
+    margin-right: -100px;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+/* Header Part Responsive End */
+/* SectionOne Part Responsive Start */
+@media (max-width: 768px) {
+  .sectionOne {
+    flex-direction: column;
+  }
+  .sectionOne .half1 h4 {
+    font-size: 0.8rem;
+  }
+  .sectionOne .half1 h1 {
+    font-size: 1.5rem;
+  }
+}
+/* SectionOne Part Responsive End */
+/* SectionTwo Part Responsive Start */
+@media (max-width: 768px) {
+  .sectionTwo {
+    flex-direction: column;
+  }
+  .sectionTwo .text2 h4 {
+    font-size: 0.8rem;
+  }
+  .sectionTwo .text2 h1 {
+    font-size: 1rem;
+  }
+}
+/* SectionTwo Part Responsive End */
+/* SectinonThree Part Responsive Start */
+@media (max-width: 768px) {
+  .sectonTrhee .section3Header h1 {
+    font-size: 25px;
+  }
+}
+/* SectionThree Part Responsive End */
+/* PriceTabel Part Responsive Start */
+@media (max-width: 768px) {
+  .pricingTable .pricingHeader h1 {
+    font-size: 1.5rem;
+  }
+}
+/* PriceTable Part Rrsponsiv End */
+/* Protfulieo Section Responsive Start */
+@media (max-width: 768px) {
+  .protfolioSection .protfolioHeader h1 {
+    font-size: 1.5rem;
+  }
+}
+/* Protfulieo Section Responsive End */
+/* Footer Part Responsive Start */
+@media (max-width: 764px) {
+  footer .foot {
+    flex-direction: column;
+  }
+  .foot .newPart {
+    margin: 0;
+  }
+  .inputBox a.btn {
+    width: 25%;
+  }
+  .foot .socialIcon {
+    width: 42%;
+    margin: 0;
+  }
+} /* Footer Part Responsive End */
